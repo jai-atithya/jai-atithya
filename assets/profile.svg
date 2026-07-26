@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="1600" viewBox="0 0 1200 1550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E1E2E"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+    <style>
+      <![CDATA[
+
+            .title{
+                font:600 18px "JetBrains Mono","Fira Code","Consolas",monospace;
+                fill:#E5E9F0;
+            }
+
+            .prompt{
+                font:600 24px "JetBrains Mono","Fira Code","Consolas",monospace;
+                fill:#8BE9FD;
+            }
+
+            .command{
+                font:600 24px "JetBrains Mono","Fira Code","Consolas",monospace;
+                fill:#50FA7B;
+            }
+
+            .text{
+                font:500 24px "JetBrains Mono","Fira Code","Consolas",monospace;
+                fill:#F8F8F2;
+            }
+
+            .comment{
+                font:500 22px "JetBrains Mono","Fira Code","Consolas",monospace;
+                fill:#94A3B8;
+            }
+
+            .link{
+                font:500 22px "JetBrains Mono","Fira Code","Consolas",monospace;
+                fill:#8BE9FD;
+            }
+
+        ]]>
+    </style>
+  </defs>
+<!--Terminal-->
+  <rect x="20" y="20" width="1160" height="1560" rx="18" fill="url(#bg)" stroke="#313244" stroke-width="2"/>
+<!--Title Bar-->
+  <rect x="20" y="20" width="1160" height="52" rx="18" fill="#313244"/>
+  <circle cx="55" cy="46" r="8" fill="#FF5F57"/>
+  <circle cx="82" cy="46" r="8" fill="#FEBC2E"/>
+  <circle cx="109" cy="46" r="8" fill="#28C840"/>
+  <text x="160" y="52" class="title">
+    peace@github: ~
+</text>
+<!--image to the right-->
+  <image href="./hello.gif" x="860" y="90" width="250" height="250"/>
+<!--WHOAMI-->
+  <text x="50" y="120" class="prompt">
+peace@github:~$
+</text>
+  <text x="290" y="120" class="command">
+whoami
+</text>
+  <text x="80" y="170" class="text">
+Jai Atithya
+</text>
+  <text x="80" y="205" class="comment">
+Computer Science &amp; Engineering Student
+</text>
+  <text x="80" y="240" class="comment">
+St. Joseph&apos;s Institute of Technology
+</text>
+  <text x="80" y="275" class="comment">
+Chennai, Tamil Nadu, India
+</text>
+<!--ABOUT-->
+  <text x="50" y="350" class="prompt">
+peace@github:~$
+</text>
+  <text x="290" y="350" class="command">
+cat about.txt
+</text>
+  <text x="80" y="400" class="comment">
+During my college journey, I explored various domains before
+</text>
+  <text x="80" y="435" class="comment">
+discovering my passion for IoT and Embedded Systems.
+</text>
+  <text x="80" y="485" class="comment">
+While working on connected systems, I often relied on
+</text>
+  <text x="80" y="520" class="comment">
+third-party platforms to visualize data and control devices
+</text>
+  <text x="80" y="555" class="comment">
+through web and mobile applications.
+</text>
+  <text x="80" y="610" class="text">
+&quot;Why not build these applications myself?&quot;
+</text>
+  <text x="80" y="665" class="comment">
+That simple question led me into application development.
+</text>
+  <text x="80" y="715" class="comment">
+Today I work across IoT, Embedded Systems,
+</text>
+  <text x="80" y="750" class="comment">
+Web Applications, PWAs and Mobile Applications.
+</text>
+<!--INTERESTS-->
+  <text x="50" y="835" class="prompt">
+peace@github:~$
+</text>
+  <text x="290" y="835" class="command">
+ls interests/
+</text>
+  <text x="80" y="885" class="text">
+contributing-to-foss/
+</text>
+  <text x="80" y="920" class="text">
+linux/
+</text>
+  <text x="80" y="955" class="text">
+keyboard/
+</text>
+  <text x="80" y="990" class="text">
+music/
+</text>
+<!--CONNECT-->
+  <text x="50" y="1080" class="prompt">
+peace@github:~$
+</text>
+  <text x="290" y="1080" class="command">
+netstat -tun
+</text>
+  <text x="80" y="1130" class="comment">
+Proto    Local Address              Foreign Address                State
+</text>
+  <line x1="80" y1="1145" x2="1080" y2="1145" stroke="#45475A" stroke-width="1"/>
+  <a href="https://linkedin.com/in/YOUR_USERNAME">
+
+<text x="80" y="1190" class="link">
+TCP      linkedin.com:443           /in/YOUR_USERNAME             ESTABLISHED
+</text>
+
+</a>
+  <a href="mailto:jaiatithya@gmail.com">
+
+<text x="80" y="1235" class="link">
+TCP      gmail.com:465              jaiatithya@gmail.com          ESTABLISHED
+</text>
+
+</a>
+<!--FAREWELL-->
+  <text x="50" y="1325" class="prompt">
+peace@github:~$
+</text>
+  <text x="290" y="1325" class="command">
+echo $MESSAGE
+</text>
+  <text x="80" y="1375" class="text">
+Thanks for stopping by! 😊
+</text>
+  <text x="80" y="1415" class="comment">
+Thousands of smiles have crossed my face...
+</text>
+  <text x="80" y="1450" class="comment">
+All thanks to you.
+</text>
+<!--bottom image-->
+  <image href="./smile.gif" x="760" y="1320" width="260" height="160"/>
+<!--Cursor-->
+  <text x="50" y="1525" class="prompt">
+peace@github:~$
+</text>
+  <text x="290" y="1525" class="command">
+█
+</text>
+</svg>
